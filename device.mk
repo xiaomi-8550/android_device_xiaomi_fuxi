@@ -13,3 +13,6 @@ $(call inherit-product, vendor/xiaomi/fuxi/fuxi-vendor.mk)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Kernel Binary
+KERNEL_PREBUILT_DIR := device/xiaomi/fuxi-kernel
