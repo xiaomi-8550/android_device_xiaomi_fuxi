@@ -16,3 +16,14 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Kernel Binary
 KERNEL_PREBUILT_DIR := device/xiaomi/fuxi-kernel
+
+# Overlays
+PRODUCT_PACKAGES += \
+    FuxiDolby \
+    FuxiFrameworks \
+    FuxiSettings2211133C \
+    FuxiSettings2211133G \
+    FuxiSettingsProvider \
+    FuxiSystemUI \
+    FuxiWifiRes \
+    FuxiWifiResMainline \
