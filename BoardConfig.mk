@@ -17,3 +17,4 @@ TARGET_OTA_ASSERT_DEVICE := fuxi
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/properties/odm.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
