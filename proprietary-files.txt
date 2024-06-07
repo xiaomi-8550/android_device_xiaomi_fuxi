@@ -1150,13 +1150,6 @@ vendor/etc/thermald-devices.conf
 odm/firmware/st_fts_m3.ftb
 odm/firmware/stm_fts_production_limits.csv
 
-# Touchscreen (TouchFeature)
-odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
-odm/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
-odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml
-odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
-
 # Vibrator (Effects)
 odm/firmware/0_click_P_RTP.bin:vendor/firmware/0_click_P_RTP.bin
 odm/firmware/2_tick_P_RTP.bin:vendor/firmware/2_tick_P_RTP.bin
